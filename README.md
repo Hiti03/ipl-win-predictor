@@ -13,4 +13,4 @@ Predicting IPL match winners using machine learning on ball-by-ball data (2008�
 
 - [x] Day 2 — Loaded deliveries.csv, explored ball-by-ball data, fixed folder structure
 
-- [x] Day 3 — EDA visualizations, matplotlib & seaborn setup (02_visualizations.ipynb)
+- [x] Day 3 — EDA visualizations, matplotlib & seaborn(02_visualizations.ipynb)
