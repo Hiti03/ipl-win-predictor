@@ -20,3 +20,5 @@ Predicting IPL match winners using machine learning on ball-by-ball data (2008�
 - [x] Day 6 — Feature engineering: One Hot Encoding, Label Encoding, X/y split, train/test split (04_feature_engineering.ipynb)
 
 - [x] Day 7 — Trained Random Forest model, 50% accuracy on pre-match features (matches.csv)
+
+- [x] Day 8 - 
