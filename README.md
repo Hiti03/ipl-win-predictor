@@ -16,3 +16,5 @@ Predicting IPL match winners using machine learning on ball-by-ball data (2008�
 - [x] Day 3 — EDA visualizations, matplotlib & seaborn(02_visualizations.ipynb)
 
 - [x] Day 4 — ML model with Logistic Regression, train/test split, LabelEncoder (03_logistic_regression.ipynb)
+
+- [x] Day 6 — Feature engineering: One Hot Encoding, Label Encoding, X/y split, train/test split (04_feature_engineering.ipynb)
