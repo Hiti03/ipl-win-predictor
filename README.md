@@ -21,4 +21,4 @@ Predicting IPL match winners using machine learning on ball-by-ball data (2008â€
 
 - [x] Day 7 â€” Trained Random Forest model, 50% accuracy on pre-match features (matches.csv)
 
-- [x] Day 8 - 
+- [x] Day 8 - In-match feature engineering from deliveries.csv (run rate, wickets remaining, required run rate), merged with matches.csv, Random Forest accuracy: 88.8% (05_inplay_features.ipynb)
