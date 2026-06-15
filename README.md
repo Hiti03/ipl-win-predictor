@@ -26,3 +26,5 @@ Predicting IPL match winners using machine learning on ball-by-ball data (2008�
 - [x] Day 9 — XGBoost vs Random Forest comparison (RF: 88.8%, XGBoost: 85.3%), feature importance analysis
 
 - [x] Day 10 — Feature importance, overfitting fix (train: 85.7%, test: 81%)
+
+- [x] Day 11-15 — In-match feature engineering, data leakage fix (GroupShuffleSplit), overfitting fix (train: 85.7%, test: 81%), confusion matrix, saved model as pkl
