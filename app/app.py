@@ -1,6 +1,8 @@
 import streamlit as st
 import pickle
 import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
 
 # 1. Load the model, the encoders, and the saved feature order
 model = pickle.load(open('model/rf_model.pkl', 'rb'))
@@ -82,3 +84,19 @@ if st.button("Predict"):
     c1.metric(f"{batting_team} win", f"{win_prob*100:.1f}%")
     c2.metric(f"{bowling_team} win", f"{(1 - win_prob)*100:.1f}%")
     st.progress(float(win_prob))
+
+
+# ---- Feature importance ----
+st.markdown("---")
+st.subheader("Which features the model relies on most")
+
+imp_df = pd.DataFrame({
+    "feature": feature_order,
+    "importance": model.feature_importances_
+}).sort_values("importance", ascending=True)
+
+fig2, ax = plt.subplots(figsize=(7, 5))
+ax.barh(imp_df["feature"], imp_df["importance"], color="#1f77b4")
+ax.set_xlabel("Importance")
+ax.set_title("Random Forest feature importance")
+st.pyplot(fig2)
