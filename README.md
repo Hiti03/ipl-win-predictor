@@ -5,7 +5,7 @@ Predict the live win probability of an IPL run chase — ball by ball — from t
 **🔗 Live app:** https://ipl-win-predictor-hm.streamlit.app
 
 ![alt text](image.png)
-![alt text](image-1.png)
+
 ![alt text](image-2.png)
 
 
@@ -23,7 +23,8 @@ It's an end-to-end machine learning project: raw data → feature engineering �
 
 ## Demo
 
-![App screenshot](app_screenshot.png)
+<img width="872" height="742" alt="image" src="https://github.com/user-attachments/assets/9f3972dc-e8ba-4e89-bfe1-82287af8b36f" />
+
 
 Enter the match situation, hit **Predict**, and get a live win percentage for both teams, plus a chart of which features the model leans on most.
 
