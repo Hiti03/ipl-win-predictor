@@ -55,10 +55,10 @@ A **Random Forest classifier** (scikit-learn). Tree-based models were chosen ove
 
 | Split | Test accuracy | Note |
 |---|---|---|
-| Random train/test split | 88.8% | ❌ inflated by **data leakage** |
-| Match-based split (`GroupShuffleSplit`) | **81%** | ✅ honest, on completely unseen matches |
+| Random train/test split | 88.8% |  inflated by **data leakage** |
+| Match-based split (`GroupShuffleSplit`) | **81%** | ✅ on completely unseen matches |
 
-The headline isn't the 81% — it's *why* it's 81% and not 88.8%.
+
 
 - **Data leakage:** a naïve random split puts balls from the *same match* in both train and test, so the model effectively sees the outcome during training. Splitting by `match_id` with `GroupShuffleSplit` fixed this and dropped the accuracy to an honest 81%.
 - **Overfitting:** the unconstrained forest hit 99.9% train vs 79.2% test. Capping it with `max_depth=10` and `min_samples_split=10` closed the gap to a healthy **85.8% train / 81% test**.
