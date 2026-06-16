@@ -4,9 +4,6 @@ Predict the live win probability of an IPL run chase — ball by ball — from t
 
 **🔗 Live app:** https://ipl-win-predictor-hm.streamlit.app
 
-![alt text](image.png)
-
-
 
 
 ---
