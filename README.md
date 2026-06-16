@@ -6,7 +6,7 @@ Predict the live win probability of an IPL run chase — ball by ball — from t
 
 ![alt text](image.png)
 
-![alt text](image-2.png)
+
 
 
 ---
@@ -71,7 +71,7 @@ Feature importance confirmed the model learned real cricketing logic — require
 
 `rrr` > `target` > `crr` > `runs_remaining` > `wickets_remaining`
 
-![Feature importance](feature_importance.png)
+![alt text](image-2.png)
 
 ---
 
